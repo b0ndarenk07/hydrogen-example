@@ -73,6 +73,9 @@ function CartCheckoutActions() {
     <>
       <div className="grid gap-4">
         <Button to={checkoutUrl}>Continue to Checkout</Button>
+        <Button to="/hedera-checkout" variant="secondary">
+          Pay with Hedera
+        </Button>
         <CartShopPayButton />
       </div>
     </>
